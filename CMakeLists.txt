@@ -1,6 +1,8 @@
 cmake_minimum_required (VERSION 3.8)
 project(nori)
 
+set(CMAKE_CXX_STANDARD 17)
+
 add_subdirectory(ext ext_build)
 
 include_directories(
